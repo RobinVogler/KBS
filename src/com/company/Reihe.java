@@ -50,11 +50,11 @@ public class Reihe {
         this.plaetze = plaetze;
     }
 
-    public void addPlaetze(Platz platz) {
+    public void addPlatz(Platz platz) {
         this.plaetze.add(platz);
     }
 
-    public void removePlaetze(Platz platz) {
+    public void removePlatz(Platz platz) {
         this.plaetze.remove(platz);
     }
 }
