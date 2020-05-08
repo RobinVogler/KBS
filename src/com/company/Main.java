@@ -462,7 +462,7 @@ public class Main {
                     String kundenName = scanner.nextLine();
                     scanner.nextLine();
                     System.out.println("Geben sie die Kunden Telefonnummer ein: ");
-                    String kundenTelefonnummer = scanner.next();
+                    String kundenTelefonnummer = scanner.nextLine();
 
                     kunden.add(new Kunde(kundenName,kundenTelefonnummer));
                     break;
