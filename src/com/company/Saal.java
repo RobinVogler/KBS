@@ -34,4 +34,8 @@ public class Saal {
     public void addReihe(Integer plaetzeInReihe){
         this.reihen.add(new Reihe(this, plaetzeInReihe));
     }
+
+    public void removeReihe(Reihe reihe) {
+        this.reihen.remove(reihe);
+    }
 }
